@@ -27,7 +27,7 @@ main(void)
         matriz[i] = (int*)(malloc(coluna * sizeof(int)));
         for(j = 0; j < coluna; j++){
             matriz[i][j] = (int*) malloc(sizeof(int));
-            matriz[i][j] = 1;
+            matriz[i][j] = rand()%50;;
         }
     }
     for(i = 0; i < linhas; i++){
